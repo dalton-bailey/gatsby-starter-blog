@@ -24,11 +24,11 @@ class Bio extends React.Component {
             marginBottom: 0,
             width: rhythm(3),
             height: rhythm(3),
-            borderRadius: 25,
+            borderRadius: 43,
           }}
         />
         <p>
-          By <strong>Bailey Dalton</strong>.{' '}
+          By Bailey Dalton.{' '}
         </p>
       </div>
     )

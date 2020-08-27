@@ -24,12 +24,13 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+              <p style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
-                </Link>
+                </p> 
               </h3>
               <small>{node.frontmatter.date}</small>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p>My name is Bailey Dalton. And this is my first blog post.</p>
             </div>
           )
         })}

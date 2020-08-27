@@ -1,5 +1,5 @@
 ---
-title: New Beginnings
+title: Blog Post 1
 date: "2020-08-26T22:40:32.169Z"
 ---
 

@@ -22,13 +22,13 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: rhythm(3),
+            height: rhythm(3),
             borderRadius: 25,
           }}
         />
         <p>
-          Written by <strong>Bailey Dalton</strong>.{' '}
+          By <strong>Bailey Dalton</strong>.{' '}
         </p>
       </div>
     )

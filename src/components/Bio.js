@@ -14,7 +14,7 @@ class Bio extends React.Component {
         style={{
           display: 'flex',
           alignItems: 'center',
-          /*marginBottom: rhythm(2.5), */
+          marginBottom: rhythm(2.5), 
         }}
       >
         <img
@@ -23,14 +23,16 @@ class Bio extends React.Component {
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
-            width: rhythm(3),
-            height: rhythm(3),
-            borderRadius: 43,
+            width: rhythm(4),
+            height: rhythm(4),
+            borderRadius: 62,
           }}
         />
-        <p>
-          By Bailey Dalton.{' '}
-        </p>
+        <div style={{
+            fontSize: 18,
+          }}>
+          By Bailey Dalton
+        </div>
       </div>
     )
   }

@@ -21,7 +21,8 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <h3
                 style={{
-                  /* marginBottom: rhythm(1 / 4), */
+                  marginBottom: rhythm(1 / 4), 
+                  color: blue,
                 }}
               >
               <p style={{ boxShadow: 'none' }} to={node.fields.slug}>
@@ -32,7 +33,7 @@ class BlogIndex extends React.Component {
               {/* <p dangerouslySetInnerHTML={{ __html: node.excerpt }} /> */}
               <p>My name is Bailey Dalton. I love to ski, run and mountain bike.</p>
               <p>I have a little JavaScript experience. Mostly just the few classes I've taken.</p>
-              <p>My favorite part of web development is designing websites.</p>
+              <p>My favorite part of web development is seeing everything come together.</p>
               <p>I'm hoping to learn a lot, but mostly improve my JavaScript skills.</p>
             </div>
           )

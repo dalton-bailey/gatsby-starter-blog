@@ -21,17 +21,15 @@ class BlogIndex extends React.Component {
             <div key={node.fields.slug}>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4), 
-                  color: 'blue',
+                  marginBottom: rhythm(1 / 4),
                 }}
               >
-              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
-                </Link> 
+                </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} /> 
-              <Link to={node.fields.slug}>READ MORE</Link>
+              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
         })}

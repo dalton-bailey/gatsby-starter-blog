@@ -13,7 +13,8 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          alignItems: center,
+          /*marginBottom: rhythm(2.5), */
         }}
       >
         <img

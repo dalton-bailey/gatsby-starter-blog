@@ -29,7 +29,10 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p style={{
+                marginBottom: 15,
+              }}
+                dangerouslySetInnerHTML={{ __html: node.excerpt }} />
               <Link 
             style={{
               boxShadow: 'none',

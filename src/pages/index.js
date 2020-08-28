@@ -34,7 +34,6 @@ class BlogIndex extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
               fontSize: 14,
             }}>read more</Link>
             </div>

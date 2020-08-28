@@ -25,16 +25,13 @@ class BlogIndex extends React.Component {
                   color: blue,
                 }}
               >
-              <p style={{ boxShadow: 'none' }} to={node.fields.slug}>
+              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
-                </p> 
+                </Link> 
               </h3>
               <small>{node.frontmatter.date}</small>
-              {/* <p dangerouslySetInnerHTML={{ __html: node.excerpt }} /> */}
-              <p>My name is Bailey Dalton. I love to ski, run and mountain bike.</p>
-              <p>I have a little JavaScript experience. Mostly just the few classes I've taken.</p>
-              <p>My favorite part of web development is seeing everything come together.</p>
-              <p>I'm hoping to learn a lot, but mostly improve my JavaScript skills.</p>
+              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} /> 
+              <Link to={node.fields.slug}>READ MORE</Link>
             </div>
           )
         })}

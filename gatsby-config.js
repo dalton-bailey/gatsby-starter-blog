@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Blog',
+    title: 'Bailey\s Blog',
     author: 'Bailey Dalton',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',

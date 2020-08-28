@@ -28,9 +28,7 @@ class Bio extends React.Component {
             borderRadius: 62,
           }}
         />
-        <div style={{
-            fontSize: 18,
-          }}>
+        <div>
           By Bailey Dalton
         </div>
       </div>

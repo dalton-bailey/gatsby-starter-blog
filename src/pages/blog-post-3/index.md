@@ -22,13 +22,13 @@ A callback function is a function passed into another function as an argument
 
 Example:
 
-function returnBirthYear(year) {
-               let birthYear = 2020 - -age.value()
-               alert (‘Your birth year is ‘ + birthYear
+function returnBirthYear(age) {
+               let birthYear = 2020 - age
+               alert ("Your birth year is " + birthYear)
 }
 
 function fromUser(callback) {
-               let age = prompt(‘Please enter your age.’)
+               let age = prompt("Please enter your age.")
                 callback(age)
 }
 

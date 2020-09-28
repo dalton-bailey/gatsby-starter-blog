@@ -7,12 +7,14 @@ Todo App
 
 <img src="todopic.png" alt="todoapp"/>
 
+
+
 This is my todo app built in vanilla javascript. There are a few main features. 
 
-1. Adding a new todo
-2. Viewing the todos by all todos and other categories
-3. Completing and deleting a todo
-4. Toggling the completed todos
+1) Adding a new todo
+2) Viewing the todos by all todos and other categories
+3) Completing and deleting a todo
+4) Toggling the completed todos
 
 When a new todo is created it is added to the end of the list of todos. All todos can be completed by clicking the check box and deleted. The category buttons will sort and display the todos by their categories. And the Completed Todos button will show the completed todos below the active todos. 
 

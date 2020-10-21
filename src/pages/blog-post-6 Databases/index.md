@@ -21,7 +21,7 @@ Another difference between SQL and NoSQl is scalability. SQL databases are verti
 
 <h3>Object Oriented</h3>
 
-In Object Oriented Databases the data is represented in the form of objects. As the name suggests, they are designed to work well with objct-oriented programming languages like Python, Java, C#, C++ etc... They are good to use with applications to require high performance, calculations, and faster results, but they do have some drawbacks. They do not have a standard query language, this makes them harder to learn.
+In Object Oriented Databases the data is represented in the form of objects. As the name suggests, they are designed to work well with objct-oriented programming languages like Python, Java, C#, C++ etc... They are good to use with applications that require high performance, calculations, and faster results, but they do have some drawbacks. They do not have a standard query language, this makes them harder to learn.
 
 
 

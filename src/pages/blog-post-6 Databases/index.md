@@ -3,7 +3,7 @@ title: Blog Post 6 Databases
 date: "2020-10-18T22:40:32.169Z"
 ---
 
-SQL, NoSQL, & Object Oriented Databases
+<h2>SQL, NoSQL, & Object Oriented Databases</h2>
 
 SQL
 

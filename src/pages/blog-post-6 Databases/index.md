@@ -17,12 +17,11 @@ NoSQL is organized differently. They are flexible. They have no predefined schem
 
 Another difference between SQL and NoSQl is scalability. SQL databases are vertically scalable while NoSQL ones are horizontially scalable. This can play a part in which database you should use. Vertical scaling is restricted to one machanie and therefore has limits. With horizontal scaling you can add more machines. 
 
-<h3>Object Oriented</h3>
-
 <img src="scaling.jpg" alt="database"/>
 
-Explain the main features of each type of database.
-When would you use each type?
-What are the differences?
-What are the advantages and disadvantages?
+<h3>Object Oriented</h3>
+
+In Object Oriented Databases the data is represented in the form of objects. As the name suggests, they are designed to work well with objct-oriented programming languages like Python, Java, C#, C++ etc... They are good to use with applications to require high performance, calculations, and faster results, but they do have some drawbacks. They do not have a standard query language, this makes them harder to learn.
+
+
 

@@ -7,7 +7,7 @@ date: "2020-11-07T22:40:32.169Z"
 
 For my final project I chose to create a workout tracker. Specifically, it will track runs, swims, and bike rides. I am training for a triatholon and thought it would be a fun project to see my progress.
 
-This week I worked on the frontend a little bit and getting my server and database set up. I set up my server and database and had them working localy and tested them with postman. Then I used fetch to grab the workouts and post new ones. 
+This week I worked on the frontend a little bit and getting my server and database set up. I set up my server and database and had them working locally and tested them with postman. Then I used fetch to grab the workouts and post new ones. 
 
 Next week I plan on finishing the layout of the frontend and set up the complete, delete and edit features for the workouts. 
 

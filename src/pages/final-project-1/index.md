@@ -11,7 +11,7 @@ This week I worked on the frontend a little bit and getting my server and databa
 
 Next week I plan on finishing the layout of the frontend and set up the complete, delete and edit features for the workouts. 
 
-This week felt pretty smooth. The biggest issues I ran into were spelling errors and forgetting parentheses on my functions. Nothing a second set of eyes coudln't fix. I had a coworker look over my code and he immediately caught my errors. Once fixed everything working perfectly. 
+This week felt pretty smooth. The biggest issues I ran into were spelling errors and forgetting parentheses on my functions. Nothing a second set of eyes couldn't fix. I had a coworker look over my code and he immediately caught my errors. Once fixed everything working perfectly. 
 
 
 

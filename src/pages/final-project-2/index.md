@@ -11,6 +11,6 @@ Next week I will work on finishing the complete and edit of a workout. I also wa
 
 When I started working on the goals I realized they would need to save to the database. I hadn't thought this out when I originally wrote up my workouts schema and the rest of the backend. I don't know exactly what went wrong when I was connecting the frontend to the backend, I think it was some CORS issues, but it took some troubleshooting to fix it. I ended up installing a chrome extension to override CORS headers to work on my app without errors. 
 
-On a side note, when the extension I installed is on I was unable to submit assignments in Canvas and it took me a few days and a support call to figure out. :woman_facepalming:
+On a side note, when the extension I installed is on I was unable to submit assignments in Canvas and it took me a few days and a support call to figure out. https://github.githubassets.com/images/icons/emoji/woman_facepalming/1f926-2640.png?v8
 
 

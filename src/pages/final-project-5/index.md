@@ -1,6 +1,6 @@
 ---
 title: Final Project Post 5
-date: "2020-12-5T22:40:32.169Z"
+date: "2020-12-05T22:40:32.169Z"
 ---
 
 <h1>Workout Tracker</h1>

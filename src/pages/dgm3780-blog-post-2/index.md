@@ -1,6 +1,6 @@
 ---
 title: Blog Post 2 - Research & Learning
-date: "2021-01-12T22:40:32.169Z"
+date: "2021-01-13T22:40:32.169Z"
 ---
 
 Research & Learning

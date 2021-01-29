@@ -40,18 +40,39 @@ Git reset moves the HEAD and branch ref pointers to the commit you specify. Ther
 
 Git checkout will switch where you are working. You can checkout a branches and commits. 
 
-What is git revert?
-Instead of moving the HEAD and branch ref pointers, revert 
-In what ways are these commands the same and what ways are they different?
-When would you use reset, checkout, or revert? Why?
-Create a new repo and demonstrate your knowledge of the following items with screenshots:
+Git revert?
 
-a git reset
-a get checkout
-a commit
-a file
-a get revert
+Instead of moving the HEAD and branch ref pointers, reverts the changes form that commit and appends a new commit with the reverted changes. 
+
+Differences
+
+Reset
+- Alters history
+- Not as safe (deleting code)
+- Moves HEAD and branch ref pointers
+
+Revert
+- Doesn't alter history
+- Safe option for shared repository (won't loose code becuase it doesn't delete anything)
+- Doesn't move head and branch ref pointers
+
+When would you use reset, checkout, or revert? Why?
+
+You would use reset when you want to delete commits up to a certain commit and are okay with losing that work.
+
+You would use revert when you want to keep some commits but want to delete one certain commit.
+
+You use checkout to work on a different branch or to checkout a commit.
+
+git reset 
+<img src="git-reset.png" alt="git reset example">
+get checkout
+<img src="git-checkout-commit.png" alt="git checkout example">
+git revert
+<img src="git-revert.png" alt="git revert example">
 git submodules
+
+
 Answer the following questions:
 
 What are git submodules?

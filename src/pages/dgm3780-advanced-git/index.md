@@ -22,6 +22,7 @@ Disadvantages
 A rebase merge
 
 <img src="rebase-example.png" alt="termial rebase example">
+
 An interactive rebase merge
 
 <img src="rebase-i.png" alt="terminal rerbase interactive example">
@@ -40,7 +41,7 @@ Git reset moves the HEAD and branch ref pointers to the commit you specify. Ther
 
 Git checkout will switch where you are working. You can checkout a branches and commits. 
 
-Git revert?
+Git revert
 
 Instead of moving the HEAD and branch ref pointers, reverts the changes form that commit and appends a new commit with the reverted changes. 
 
@@ -56,8 +57,6 @@ Revert
 - Safe option for shared repository (won't loose code becuase it doesn't delete anything)
 - Doesn't move head and branch ref pointers
 
-When would you use reset, checkout, or revert? Why?
-
 You would use reset when you want to delete commits up to a certain commit and are okay with losing that work.
 
 You would use revert when you want to keep some commits but want to delete one certain commit.
@@ -65,18 +64,21 @@ You would use revert when you want to keep some commits but want to delete one c
 You use checkout to work on a different branch or to checkout a commit.
 
 git reset 
+
 <img src="git-reset.png" alt="git reset example">
 get checkout
+
 <img src="git-checkout-commit.png" alt="git checkout example">
 git revert
+
 <img src="git-revert.png" alt="git revert example">
 git submodules
 
+<img src="git-submodule.png" alt="git submodule exammple>
 
-Answer the following questions:
+Git submodules
 
-What are git submodules?
-A submodule is a repository inside of a repository.
+A submodule is a repository inside of a repository at a certain commit. They are very static 
 When would you use a submodule?
-You could use a submodule when you have a large project, or, I use submodules to directly access different projects on my portfolio site.
+
 What are the advantages and disadvantages of git submodules?

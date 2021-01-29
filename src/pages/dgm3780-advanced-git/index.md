@@ -66,19 +66,21 @@ You use checkout to work on a different branch or to checkout a commit.
 git reset 
 
 <img src="git-reset.png" alt="git reset example">
+
 get checkout
 
 <img src="git-checkout-commit.png" alt="git checkout example">
+
 git revert
 
 <img src="git-revert.png" alt="git revert example">
+
 git submodules
 
-<img src="git-submodule.png" alt="git submodule exammple>
+<img src="git-submodule.png" alt="git submodule exammple">
 
 Git submodules
 
-A submodule is a repository inside of a repository at a certain commit. They are very static 
-When would you use a submodule?
+A submodule is a repository inside of a repository at a certain commit. 
 
 What are the advantages and disadvantages of git submodules?

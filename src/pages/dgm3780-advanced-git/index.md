@@ -5,43 +5,43 @@ date: "2021-01-19T22:40:32.169Z"
 
 Advanced Git
 
-Git rebase allows you to combine commits from a branch onto another. It is changing the base of your branch so you have a continuous, linear project. Say you create a new branch and make a few commits. You can then use git rebase and this changes the base of your project to the master and puts your branch however many commits ahead of the master branch. You can then perfrom git merge branch from the master branch and this will perform a fast-forward merge.
+Git rebase allows you to combine commits from a branch onto another. It is changing the base of your branch so you have a continuous, linear project. Say you create a new branch and make a few commits. You can then use git rebase and this changes the base of your project to the master and puts your branch however many commits ahead of the master branch. You can then perfrom git merge branch from the master branch and this will perform a fast-forward merge. You shouldn't use rebase on a shared branch or open source project. It can create a lot of conflicts. 
 
 <img src="git-rebase.svg" alt="git rebase example">
-
-Some of the advantages of git rebase is having a clean git log history. This makes debugging easier. You can rollback to a previous commit and to see where the bug began easier becuase of you have a clean history.
 
 Advantages 
 
 - A clean history
 - Easier to rollback and look for bugs
 
-One disadvantage is when you are using a dependency on a branch that has been removed on master. When you rebase on to master this will break your build. 
-
 Disadvantages
 
-- Should only use locally
--
-
-You shouldn't use git rebase on a public repository, an open source project or a shared branch becuase it is easy to lose code. 
+- Will break your build if a dependency is used on the branch and not on the master
+- Easy to create conflicts 
 
 A rebase merge
+
 <img src="rebase-example.png" alt="termial rebase example">
 An interactive rebase merge
+
 <img src="rebase-i.png" alt="terminal rerbase interactive example">
+
 When you shouldn't rebase with a remote repo.
 
-Answer the following questions:
+When you are working on a team with a remote repo you need to understand how rebasing works so you don't loose any code. You will always want to pull before you rebase so you are up to date. If there are commits on the master from teammates and you decide to rebase and then pull you will loose code and create lots of conflicts.
 
-What is git reset?
 
-Git reset resets your 
-What is the difference between hard, mixed and soft?
-What is git checkout? 
+Git reset
+
+Git reset moves the HEAD and branch ref pointers to the commit you specify. There are three arguments, --soft, --mixed, --hard. --mixed is the default. Soft will reset your commit history, but not your working directory or staging area. Mixed will reset your commit history and staging area. And hard will reset all three which is why it is the most dangerous but also the most used.
+
+<img src="gitreset.png" alt="git reset">
+
 
 Git checkout will switch where you are working. You can checkout a branches and commits. 
 
 What is git revert?
+Instead of moving the HEAD and branch ref pointers, revert 
 In what ways are these commands the same and what ways are they different?
 When would you use reset, checkout, or revert? Why?
 Create a new repo and demonstrate your knowledge of the following items with screenshots:

@@ -13,17 +13,22 @@ Some of the advantages of git rebase is having a clean git log history. This mak
 
 Advantages 
 
-> A clean history
-> Easier to rollback and look for bugs
+- A clean history
+- Easier to rollback and look for bugs
 
 One disadvantage is when you are using a dependency on a branch that has been removed on master. When you rebase on to master this will break your build. 
+
+Disadvantages
+
+- Should only use locally
+-
 
 You shouldn't use git rebase on a public repository, an open source project or a shared branch becuase it is easy to lose code. 
 
 A rebase merge
-<img src="rebase-example" alt="termial rebase example">
+<img src="rebase-example.png" alt="termial rebase example">
 An interactive rebase merge
-<img src="rebase-i" alt="terminal rerbase interactive example">
+<img src="rebase-i.png" alt="terminal rerbase interactive example">
 When you shouldn't rebase with a remote repo.
 
 Answer the following questions:

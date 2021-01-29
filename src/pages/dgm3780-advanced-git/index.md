@@ -5,22 +5,25 @@ date: "2021-01-19T22:40:32.169Z"
 
 Advanced Git
 
-git rebase
-Answer the following questions:
+Git rebase allows you to combine commits from a branch onto another. It is changing the base of your branch so you have a continuous, linear project. Say you create a new branch and make a few commits. You can then use git rebase and this changes the base of your project to the master and puts your branch however many commits ahead of the master branch. You can then perfrom git merge branch from the master branch and this will perform a fast-forward merge.
 
-What is git rebase?
+<img src="git-rebase.svg" alt="git rebase example">
 
-Git rebase allows you to combine commits from a branch onto another. It is changing the base of your branch so you have a continuous, linear project. Say create a new branch and make a few commits. You can then use git rebase master and this changes the base of your project to the master and puts your branch however many commits ahead of the master branch. You can then perfrom git merge branch from the master branch and this will perform a fast-forward merge.
+Some of the advantages of git rebase is having a clean git log history. This makes debugging easier. You can rollback to a previous commit and to see where the bug began easier becuase of you have a clean history.
 
-What are some advantages and disadvantages of git rebase? (At least 2 of each)
-When shouldn't you use git rebase? Why?
+Advantages 
+
+> A clean history
+> Easier to rollback and look for bugs
+
+One disadvantage is when you are using a dependency on a branch that has been removed on master. When you rebase on to master this will break your build. 
 
 You shouldn't use git rebase on a public repository, an open source project or a shared branch becuase it is easy to lose code. 
 
-Create a new repo and demonstrate your knowledge of the following items with screenshots:
-
 A rebase merge
+<img src="rebase-example" alt="termial rebase example">
 An interactive rebase merge
+<img src="rebase-i" alt="terminal rerbase interactive example">
 When you shouldn't rebase with a remote repo.
 
 Answer the following questions:

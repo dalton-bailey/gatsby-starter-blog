@@ -1,24 +1,12 @@
 ---
-title: Blog Post 4 - Unit Testing
-date: "2021-02-03T22:40:32.169Z"
+title: Blog Post 6 - TypeScript
+date: "2021-02-13T22:40:32.169Z"
 ---
 
-Unit Testing
+TypeScript
 
-Unit testing is testing the smallest units of code possible in isolation. A unit can be almost anything; a line of code, a function, a class. Unit testing can be done at any point. Before, during or after you write your code.
+TypeScript is a stongly typed programmnig language that is a superset of JavaScript. It is pretty much JavaScript with a few more features. 
 
-Test Driven Development
+When programming in JavaScript, you have to run your code to see if it is valid. When transpiled, TypeScript will generate compilation errors. This helps with debugging and overall is more effiencent. This makes it a great tool for developers.
 
-Test driven development is what is sounds like. You write you tests first and allow that to drive how you develop your code. This can consists of a few different testing types, inlcuding unit testing. 
-
-Practicing test driven delevopment is an excellent way to ensure you are writing quality code and you have good test coverage.
-
-Advantages
-- Only write the code that is needed
-- Documents your code
-- More modular code
-
-Disadvantages
-- If on a team, everyone has to do it
-- Time consumming
-- Tests have to be updated when code changes
+Transpilers and compilers are similar in that they both convert code from one language to another language. However, a transpiler converts code from one language to another with a similar level of abstraction. Becuase TypeScript is a superset of Javascript it is transpiled. 

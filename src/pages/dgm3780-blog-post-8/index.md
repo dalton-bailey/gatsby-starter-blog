@@ -10,11 +10,28 @@ How to declare a function. (3 ways)
 
 There are a few ways to declare a function in JavaScript.
 
-1) Function Declaration
+1. Function Declaration
 
-`function hello(name) {`
-    `console.log('Hello ' + name)`
-`}`
+```
+function hello(name) {
+    console.log('Hello ' + name)
+}
+```
+
+2. Function Expression
+
+```
+let greeting = function hello(){
+    console.log('Hello ' + name)
+}
+```
+
+3. Arrow Function
+
+```
+const greeting = (name) => {
+    console.log('Hello ' + name)
+}
 
 How to return a value from a function
 How to accept a value into a function

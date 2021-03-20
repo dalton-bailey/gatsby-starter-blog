@@ -29,7 +29,7 @@ let greeting = function hello(){
 3. Arrow Function
 
 ```
-const greeting = (name) => {
+const hello = (name) => {
     console.log('Hello ' + name)
 }
 

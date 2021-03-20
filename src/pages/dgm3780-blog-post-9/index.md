@@ -9,13 +9,19 @@ React is a front end JavaScritp library. It was created by a software engineer a
 
 State is a build in feature that stores prperties for the component. When the state changes the compenent re-renders.
 
-
 Functional
+- plain JavaScript 
+- accepts props
+- returns React element
+- useState
+- useEffect
 
 Class
+- extend from React.Component, create render function and return React element
+- setState
+- componentDidMount
 
-
-When should you use each type?
+Ultimately functional and class components can accomplish the same goal. Functional componenets are straight forward and easier to understand than class components. 
 
 JSX is an extension of JavaScript that can be used to show what the UI will look like but has all the powers of JavaScript.
 
